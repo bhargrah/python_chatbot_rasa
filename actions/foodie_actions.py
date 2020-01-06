@@ -37,12 +37,12 @@ class ActionSendMailService(Action):
         msg = EmailMessage()
 
         msg['Subject'] = 'Restaurant Recommendations'
-        msg['From'] = "foodierestbotai@gmail.com"
+        msg['From'] = "need to specify mail"
         msg['To'] = email
 
         smtp = smtplib.SMTP('smtp.gmail.com', 587)
         smtp.starttls()
-        smtp.login("foodierestbotai@gmail.com", "Rock12!@")
+        smtp.login("need to specify mail", "password")
 
         message_body = "Hi Guest \n\nHope you are doing well!!! \nThe details of all the restaurants you inquried. \n\n"
         global dict_mail
