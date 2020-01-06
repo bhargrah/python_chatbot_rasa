@@ -1,0 +1,10 @@
+american
+mexican
+italian
+thai
+chinese
+north indian
+cafe
+bakery
+biryani
+south indian

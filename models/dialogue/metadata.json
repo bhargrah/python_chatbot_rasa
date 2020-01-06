@@ -1,0 +1,43 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": [
+        "email",
+        "budget",
+        "cuisine",
+        "location"
+      ]
+    },
+    "action_validate_city": {
+      "slots": [
+        "city_status"
+      ]
+    },
+    "action_restaurant": {
+      "slots": [
+        "location"
+      ]
+    },
+    "action_restart_conversation": {
+      "slots": []
+    }
+  },
+  "python": "3.7.4",
+  "max_histories": [
+    5,
+    5,
+    null,
+    2
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.keras_policy.KerasPolicy",
+    "rasa_core.policies.memoization.MemoizationPolicy",
+    "rasa_core.policies.fallback.FallbackPolicy",
+    "rasa_core.policies.form_policy.FormPolicy"
+  ],
+  "trained_at": "20191110-111654",
+  "rasa_core": "0.14.5",
+  "tensorflow": "1.13.2",
+  "sklearn": "0.20.4"
+}

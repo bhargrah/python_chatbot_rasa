@@ -1,0 +1,22 @@
+[
+    {
+        "name": "greet",
+        "pattern": "hey[^\\s]*"
+    },
+    {
+        "name": "inform",
+        "pattern": "[0-9]*"
+    },
+    {
+        "name": "send_email",
+        "pattern": "^\\w+(\\w+)*\\@(\\w+)*\\.(\\w+)*(.(\\w+)*)?$"
+    },
+    {
+        "name": "location",
+        "pattern": "(?i)(\\bBangalore\\b|\\bChennai\\b|\\bDelhi\\b|\\bHyderabad\\b|\\bKolkata\\b|\\bMumbai\\b|\\bAhmedabad\\b|\\bPune\\b|\\bAgra\\b|\\bAjmer\\b|\\bAligarh\\b|\\bAmravati\\b|\\bAmritsar\\b|\\bAsansol\\b|\\bAurangabad\\b|\\bBareilly\\b|\\bBelgaum\\b|\\bBhavnagar\\b|\\bBhiwandi\\b|\\bBhopal\\b|\\bBhubaneswar\\b|\\bBikaner\\b|\\bBilaspur\\b|\\bBokaro\\ Steel\\ City\\b|\\bChandigarh\\b|\\bCoimbatore\\ Nagpur\\b|\\bCuttack\\b|\\bDehradun\\b|\\bDhanbad\\b|\\bBhilai\\b|\\bDurgapur\\b|\\bErode\\b|\\bFaridabad\\b|\\bFirozabad\\b|\\bGhaziabad\\b|\\bGorakhpur\\b|\\bGulbarga\\b|\\bGuntur\\b|\\bGwalior\\b|\\bGurgaon\\b|\\bGuwahati\\b|\\bHubli–Dharwad\\b|\\bIndore\\b|\\bJabalpur\\b|\\bJaipur\\b|\\bJalandhar\\b|\\bJammu\\b|\\bJamnagar\\b|\\bJamshedpur\\b|\\bJhansi\\b|\\bJodhpur\\b|\\bKakinada\\b|\\bKannur\\b|\\bKanpur\\b|\\bKochi\\b|\\bKottayam\\b|\\bKolhapur\\b|\\bKollam\\b|\\bKota\\b|\\bKozhikode\\b|\\bKurnool\\b|\\bLudhiana\\b|\\bLucknow\\b|\\bMadurai\\b|\\bMalappuram\\b|\\bMathura\\b|\\bGoa\\b|\\bMangalore\\b|\\bMeerut\\b|\\bMoradabad\\b|\\bMysore\\b|\\bNanded\\b|\\bNashik\\b|\\bNellore\\b|\\bNoida\\b|\\bPalakkad\\b|\\bPatna\\b|\\bPondicherry\\b|\\bPurulia\\ Allahabad\\b|\\bRaipur\\b|\\bRajkot\\b|\\bRajahmundry\\b|\\bRanchi\\b|\\bRourkela\\b|\\bSalem\\b|\\bSangli\\b|\\bSiliguri\\b|\\bSolapur\\b|\\bSrinagar\\b|\\bThiruvananthapuram\\b|\\bThrissur\\b|\\bTiruchirappalli\\b|\\bTirupati\\b|\\bTirunelveli\\b|\\bTiruppur\\b|\\bTiruvannamalai\\b|\\bUjjain\\b|\\bBijapur\\b|\\bVadodara\\b|\\bVaranasi\\b|\\bVasai\\-VirarCity\\b|\\bVijayawada\\b|\\bVellore\\b|\\bWarangal\\b|\\bSurat\\b|\\bVisakhapatnam\"\\b)"
+    },
+    {
+        "name": "cuisine",
+        "pattern": "(?i)(\\bamerican\\b|\\bmexican\\b|\\bitalian\\b|\\bthai\\b|\\bchinese\\b|\\bnorth\\ indian\\b|\\bcafe\\b|\\bbakery\\b|\\bbiryani\\b|\\bsouth\\ indian\\b)"
+    }
+]
