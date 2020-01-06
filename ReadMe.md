@@ -1,7 +1,8 @@
 # Project Summary 
 
-In this project, we will learn to build a domain-specific chatbot: a restaurant search chatbot. The bot will be able to 'talk' to users in English and will help them search for restaurants in several cities, of multiple cuisine types, budgets etc. You’re going to use an open source framework for building conversational bots  - Rasa.
+An Indian startup wants to build a conversational bot (chatbot) which can help users discover restaurants across several Indian cities. The main purpose of the bot is to help users discover restaurants quickly and efficiently and to provide a good restaurant discovery experience.
 
+In this project, we will learn to build a domain-specific chatbot: a restaurant search chatbot. The bot will be able to 'talk' to users in English and will help them search for restaurants in several cities, of multiple cuisine types, budgets etc. You’re going to use an open source framework for building conversational bots  - Rasa.
 
 # Installations Steps
 
