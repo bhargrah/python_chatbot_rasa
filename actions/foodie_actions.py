@@ -28,7 +28,7 @@ class ActionSendMailService(Action):
         logging.basicConfig(filename=logfile, level=logging.DEBUG)
         email = tracker.get_slot('email')
 
-        # for slack handling format [  mailto:foodierestbotai@gmail.com|foodierestbotai@gmail.com ]
+        # for slack handling format [  mailto:@gmail.com|@gmail.com ]
         if len(email.split("|")) == 2:
             email = email.split("|")[1]
 
@@ -42,7 +42,7 @@ class ActionSendMailService(Action):
 
         smtp = smtplib.SMTP('smtp.gmail.com', 587)
         smtp.starttls()
-        smtp.login("need to specify mail", "password")
+        smtp.login("### need to specify mail", "#### password")
 
         message_body = "Hi Guest \n\nHope you are doing well!!! \nThe details of all the restaurants you inquried. \n\n"
         global dict_mail
@@ -95,7 +95,7 @@ class ActionValidateService(Action):
         if city.lower() in validcity_list:
             return [SlotSet('city_status', "Service")]
         else:
-            zomato = zomatopy.initialize_app({"user_key": "402615a9db2aafef068c74fe495e2ae5"})
+            zomato = zomatopy.initialize_app({"user_key": "## your Zomato key"})
             try:
                 result = zomato.get_city_ID(city)
                 return [SlotSet('city_status', "No_Service")]
@@ -112,7 +112,7 @@ class ActionSearchRestaurants(Action):
 
     def run(self, dispatcher, tracker, domain):
         logging.basicConfig(filename=logfile, level=logging.DEBUG)
-        zomato = zomatopy.initialize_app({"user_key": "402615a9db2aafef068c74fe495e2ae5"})
+        zomato = zomatopy.initialize_app({"user_key": "## your Zomato key"})
 
         loc = tracker.get_slot('location')
         cuisine = tracker.get_slot('cuisine')
